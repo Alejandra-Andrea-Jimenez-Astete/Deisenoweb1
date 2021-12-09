@@ -28,15 +28,15 @@ background:plum;
     font-size: 18px;
     padding: 20px 25px;
 }
-.amarillo{
-    background: #ffc400e3;
+.lila{
+    background: #6a5bf0e3;
     color: black;
 }
-.naranja{
-    background: rgb(231, 62, 10);
+.rosado{
+    background: rgb(224, 22, 147);
 }
-.azul{
-    background: rgb(0, 47, 255);
+.rojo{
+    background: rgb(223, 15, 50);
 }
 .redondeado{
     border-radius: 30%;
