@@ -6,9 +6,9 @@ background: rgb(155, 84, 236);
 }
 .galeria img{
     /*width: 400 px;*/
-    height: 200px;
+    height: 300px;
     vertical-align: top;
-    opacity: 0.5;
+    opacity: 0.3;
     border: 1px solid #888;
     padding: 5px;
     margin: 10px;
