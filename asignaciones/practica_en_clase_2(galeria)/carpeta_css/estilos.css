@@ -4,7 +4,7 @@ background: #333;
 .galeria {
     width: 100%;
 }
-.galeria imagenes {
+.galeria img{
     /*width: 400 px;*/
     height: 200px;
     vertical-align: top;
@@ -13,7 +13,7 @@ background: #333;
     padding: 5px;
     margin: 10px;
 }
-.galeria imagenes:hover{
+.galeria img:hover{
     opacity:1;
     border:1x solid #fff;
 }
