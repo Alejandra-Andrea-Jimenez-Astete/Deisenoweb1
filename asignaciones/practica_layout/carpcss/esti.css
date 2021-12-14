@@ -1,0 +1,44 @@
+body{
+    background: rgb(87, 78, 219);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.contenedor{/*contenedor padre*/
+    width: 1000px;
+    margin: 20px auto;
+    overflow: hidden;
+}
+header{ 
+    background:pink;
+}
+header nav{
+    width: 100%;
+}
+header nav ul{
+    list-style: none;
+    /*Quita viñeta*/
+    overflow: hidden;
+}
+header nav ul li{
+    float: left;
+}
+header nav ul li a{
+    text-decoration: none;
+    /*Quita subrayado*/
+    display: inline-block;
+    color: teal;
+    padding: 15px 20px;
+    margin: 5px;
+}
+header nav ul li a:hover{
+    background: tomato;
+}
+/*Hasta aqui menu de navegacion*/
+main {
+    width: 700px;
+    background: rgb(3, 40, 161);
+}
