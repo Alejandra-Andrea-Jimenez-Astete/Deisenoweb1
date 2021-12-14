@@ -18,19 +18,19 @@ header{
 header nav{
     width: 100%;
 }
-ul{
-    list-style: none;
+li{/*Preguntar*/
+    list-style:none;
     /*Quita viñeta*/
     overflow: hidden;
 }
-header nav ul li{
+li{/*Preguntar*/
     float: left;
 }
-header nav ul li a{
+a{/*Preguntar*/
     text-decoration: none;
     /*Quita subrayado*/
     display: inline-block;
-    color: teal;
+    color: rgb(125, 240, 240);
     padding: 15px 20px;
     margin: 5px;
 }
