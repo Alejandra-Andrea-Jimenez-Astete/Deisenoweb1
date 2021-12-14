@@ -12,12 +12,10 @@ body{
     margin: 20px auto;
     overflow: hidden;
 }
-header{ 
-    background:pink;
+li{ /*preguntar*/
+    background:rgb(204, 114, 129);
 }
-header nav{
-    width: 100%;
-}
+
 li{/*Preguntar*/
     list-style:none;
     /*Quita viñeta*/
@@ -32,13 +30,22 @@ a{/*Preguntar*/
     display: inline-block;
     color: rgb(125, 240, 240);
     padding: 15px 20px;
-    margin: 5px;
+    margin: 5px;  
 }
 header nav ul li a:hover{
     background: tomato;
 }
 /*Hasta aqui menu de navegacion*/
-main {
+article{
     width: 700px;
     background: rgb(3, 40, 161);
+}
+aside{
+    background: rgb(46, 124, 226);
+}
+.lista2{
+    background: rgb(34, 48, 245);
+}
+main img{
+    width: 70%;
 }
