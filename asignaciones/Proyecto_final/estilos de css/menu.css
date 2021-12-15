@@ -48,6 +48,7 @@
 }
 #boton1,#boton2,#boton3,#boton4,#boton5{
     padding: 12px;
+    background: #f89a78;
     margin-right: 15px;
     text-decoration: none;
 }
@@ -63,21 +64,6 @@ h1{
     display: none;
     position: absolute;
     list-style: none;
-}
-#boton1{
-    background: #FFED09;
-}
-#boton2{
-    background: #47f61f;
-}
-#boton3{
-    background:#27fdde ;
-}
-#boton4{
-    background: #ea14e5;
-}
-#boton5{
-    background: #fe124a;
 }
 #boton1-1,#boton1-2,#boton1-3,#boton1-4{
     text-decoration: none;
@@ -116,6 +102,7 @@ h1{
 }
 #boton1-1:hover,#boton1-2:hover,#boton1-3:hover,#boton1-4:hover{
     background-color:#ffabff;
+    colo
 }
 
 #boton2-1:hover,#boton2-2:hover,#boton2-3:hover,#boton2-4:hover{
