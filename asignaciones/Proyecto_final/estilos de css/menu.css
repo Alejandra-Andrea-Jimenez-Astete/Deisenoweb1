@@ -32,6 +32,10 @@
     background-color: #ffabff;
     color: #fafafa;
 }
+#boton1:visited{
+    background-color: #fc7474;
+    color: #f89a78;
+}
 #b1:hover > .submenu1{
     display: block;
 }
