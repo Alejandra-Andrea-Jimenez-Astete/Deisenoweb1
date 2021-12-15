@@ -32,9 +32,9 @@
     background-color: #ffabff;
     color: #fafafa;
 }
-#boton1:visited{
+#boton1:visited,#boton2:visited,#boton3:visited,#boton4:visited,#boton5:visited{
     background-color: #fc7474;
-    color: #f89a78;
+    color: black;
 }
 #b1:hover > .submenu1{
     display: block;
