@@ -1,0 +1,15 @@
+.contenedor3{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#img2{
+    width: 1200px;
+    margin:auto;
+    }
+footer h3 {
+    padding: 20px;
+    width: 1000px;
+    margin: auto;
+    text-align:justify;
+}
