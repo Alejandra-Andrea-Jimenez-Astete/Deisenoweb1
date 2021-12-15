@@ -10,6 +10,8 @@
 footer h3 {
     padding: 20px;
     width: 1000px;
+    font-family: "Balsamiq sans";
+    font-size: 24px;
     margin: auto;
     text-align:justify;
 }
