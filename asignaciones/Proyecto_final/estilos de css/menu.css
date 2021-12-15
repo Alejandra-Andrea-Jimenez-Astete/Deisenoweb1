@@ -29,7 +29,8 @@
     float: left;
 }
 #boton1:hover,#boton2:hover,#boton3:hover,#boton4:hover,#boton5:hover{
-    background-color: aquamarine;
+    background-color: #ffabff;
+    color:black;
 }
 #b1:hover > .submenu1{
     display: block;
@@ -106,14 +107,18 @@ h1{
 }
 #boton2-1:hover,#boton2-2:hover,#boton2-3:hover,#boton2-4:hover{
     background-color: #ffabff;
+    color:black;
 }
 #boton3-1:hover,#boton3-2:hover,#boton3-3:hover,#boton3-4:hover{
     background-color: #ffabff;
+    color:black;
 }
 
 #boton4-1:hover,#boton4-2:hover,#boton4-3:hover,#boton4-4:hover{
     background-color: #ffabff;
+    color:black;
 }
 #boton5-1:hover,#boton5-2:hover,#boton5-3:hover,#boton5-4:hover{
     background-color: #ffabff;
+    color:black;
 }
