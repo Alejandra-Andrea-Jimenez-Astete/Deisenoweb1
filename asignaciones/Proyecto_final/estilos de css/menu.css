@@ -30,7 +30,7 @@
 }
 #boton1:hover,#boton2:hover,#boton3:hover,#boton4:hover,#boton5:hover{
     background-color: #ffabff;
-    color:black;
+    color: #fafafa;
 }
 #b1:hover > .submenu1{
     display: block;
