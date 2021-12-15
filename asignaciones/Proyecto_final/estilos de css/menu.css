@@ -65,9 +65,23 @@ h1{
     position: absolute;
     list-style: none;
 }
+#boton1{
+    background: #FFED09;
+}
+#boton2{
+    background: #47f61f;
+}
+#boton3{
+    background:#27fdde ;
+}
+#boton4{
+    background: #ea14e5;
+}
+#boton5{
+    background: #fe124a;
+}
 #boton1-1,#boton1-2,#boton1-3,#boton1-4{
     text-decoration: none;
-    background: #F89A78;
     padding: 10px 6.5px;
     display: block;
     margin-right: 15px;
