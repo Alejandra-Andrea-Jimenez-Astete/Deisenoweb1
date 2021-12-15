@@ -47,7 +47,6 @@
     display: block;
 }
 #boton1,#boton2,#boton3,#boton4,#boton5{
-    background: #F89A78;
     padding: 12px;
     margin-right: 15px;
     text-decoration: none;
@@ -82,6 +81,7 @@ h1{
 }
 #boton1-1,#boton1-2,#boton1-3,#boton1-4{
     text-decoration: none;
+    background: #F89A78;
     padding: 10px 6.5px;
     display: block;
     margin-right: 15px;
