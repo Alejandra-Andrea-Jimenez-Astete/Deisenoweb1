@@ -10,12 +10,12 @@
     box-sizing: border-box;
     background: #FF8C2D;
     overflow: hidden;
-}/*opcional para que no se agrupen las letras entre si, pero lo malo es que parte del titulo en el munu desaparece
+}/*opcional para que no se agrupen las letras entre si, pero lo malo es que parte del titulo en el munu desaparece*/
 .subcontenedor1{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}*/
+}
 .contenedor1 img{
     width: 25%;
     float: left;
@@ -33,8 +33,8 @@
 }
 #b1,#b2,#b3,#b4,#b5{
     overflow: hidden;
-    /*opcional si el display no es aplicado, pero al minimizar se agrupan en varias lineas los titulos del menu*/
-    float: left;
+    /*opcional si el display no es aplicado, pero al minimizar se agrupan en varias lineas los titulos del menu
+    float: left;*/
 }
 #boton1:hover,#boton2:hover,#boton3:hover,#boton4:hover,#boton5:hover{
     background-color: #ffabff;
