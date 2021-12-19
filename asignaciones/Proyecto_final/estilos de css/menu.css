@@ -32,11 +32,11 @@
 }
 #boton1:hover,#boton2:hover,#boton3:hover,#boton4:hover,#boton5:hover{
     background-color: #ffabff;
-    color: #fafafa;
+    color: #000000;
 }
 #boton1:visited,#boton2:visited,#boton3:visited,#boton4:visited,#boton5:visited{
-    background-color: #fc7474;
-    color: black;
+    background-color: #f8caab;
+    color: #020420;
 }
 #b1:hover > .submenu1{
     display: block;
