@@ -11,10 +11,12 @@
     background: #FF8C2D;
     overflow: hidden;
 }/*opcional para que no se agrupen las letras entre si, pero lo malo es que parte del titulo en el munu desaparece*/
-.subcontenedor1{
+.subcontenedor1{/*menu*/
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 .contenedor1 img{
     width: 25%;
