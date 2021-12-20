@@ -9,10 +9,18 @@
 <body>
     <div class=Formulario>
         <form action="gracias.html" method="get">
-            <input type="text" required minlength="5" >
-            <input type="email" placeholder="juanperez@gmail.com">
-            <input type="tel" required>
-            <input type="date">
+            <label for="name">Nombre completo: </label>
+            <input type="text" name="Nombre completo" id="name" required pathern="[a,z]{5}">
+            <br>
+            <label for="email">Correo electronico: </label>
+            <input type="email" name="Correo electronico" id="email" placeholder="juanperez@gmail.com">
+            <br>
+            <label for="telf">Numero de telefono: </label>
+            <input type="tel" name="Nuemero de telefono" id="telf" required>
+            <br>
+            <label for="date">Fecha actual: </label>
+            <input type="date" name="Fecha actual" id="date">
+            <br>
             <label for="usuario">Tipo de usuario:  </label>
             <select name="Tipo de usuario" id="usuario">
                 <option value="1">Paciente</option>
@@ -35,9 +43,10 @@
                 <option value="9">Pando</option>
             </select>
             <br>
+            <label for="comentario">Comentarios: </label>
             <input type="textarea" name="Informacion adicional" id="comentario">
             <br>
-            <input type="submit" value="Emviar">
+            <input type="submit" name="boton_enviado" value="Emviar">
         </form>
     </div>
 </body>
