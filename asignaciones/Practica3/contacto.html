@@ -15,7 +15,8 @@
         <div class=Formulario>
             <form action="gracias.html" method="get">
                 <label for="name">Nombre completo: </label>
-                <input type="text" name="Nombre completo" id="name" required pathern="[a,z]{5}" >
+                <input pattern="[A-Z]{5}" name="Nombre" id="name" required
+                title="Ingrese solo mayusculas y tamaño de nombre min 5"/>
                 <br>
                 <label for="email">Correo electronico: </label>
                 <input type="email" name="Correo electronico" id="email" placeholder="juanperez@gmail.com">
@@ -27,16 +28,19 @@
                 <input type="date" name="Fecha actual" id="date">
                 <br>
                 <label for="usuario">Tipo de usuario:  </label>
-                <select name="Tipo de usuario" id="usuario">
-                     <option value="1">Paciente</option>
-                     <option value="2">Aburrido</option>
-                     <option value="3">Enojado</option>
-                     <option value="4">Calmado</option>
-                     <option value="5">Con altas expectativas</option>
-                </select>
+                <br>
+                <input type="radio" name="tipo_usuario" value="Paciente" id="usuario">
+                <label for="usuario">Paciente</label>
+                <br>
+                <input type="radio" name="tipo_usuario" value="Aburrido" id="user">
+                <label for="user">Aburrido</label>
+                <br>
+                <input type="radio" name="tipo_usuario" value="Con altas expectativas" id="usser">
+                <label for="usser">Con altas expectativas</label>
                 <br>
                 <label for="ciudad">Ciudad de nacimiento: </label>
                 <select name="Ciudades de Bolivia" id="ciudad">
+                    <option value="0" disabled>Seleccionar departamento</option>
                     <option value="1">Chuqisaca</option>
                     <option value="2">La Paz</option>
                     <option value="3">Cochabamba</option>
