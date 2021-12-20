@@ -1,0 +1,31 @@
+body{
+    background:rgb(150, 230, 255);
+}
+.contenedor{
+    margin: auto;
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: rgb(2, 175, 255);
+}
+.titulo{
+    background: rgb(59, 144, 255);
+    margin: 20px 20px;
+    font-size: 24px;
+    text-align:center ;
+}
+.Formulario{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: rgb(59, 144, 255);
+    padding: 50px;
+    margin: 20px 20px;
+    text-align:justify;
+    font-size: 24px;
+    font-family: monospace;
+    font-weight: bold;
+    line-height: 2em;
+}
