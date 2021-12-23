@@ -30,7 +30,6 @@ body{
     width: 100%;
 }
 /*titulo y menu*/
-/*opcional para que no se agrupen las letras entre si, pero lo malo es que parte del titulo en el munu desaparece*/
 .contenedor .contenedor1 .titulo_menu{
     width: 70%;
     display: flex;
@@ -71,7 +70,7 @@ body{
     color:#0C01E5;
 }
 /*no se aplica encima el hover si colocamos esto*//*
-#boton1:visited,#boton2:visited,#boton3:visited,#boton4:visited,#boton5:visited{
+.boton1:visited{
     background-color: #ff9999;
     color: #020420;
 }*/
