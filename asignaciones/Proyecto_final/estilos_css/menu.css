@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+body{
+    background: rgb(255, 224, 184);
+}
 .contenedor{
     width: 100%;
     max-width: 1200px;
@@ -46,7 +49,7 @@
         font-style: oblique;*/
 }
 /*menu*/
-.contenedor .contenedor1 .titulo_menu .main ul .subcontenedor1{
+.contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -55,7 +58,7 @@
     font-size: 24px;
 } 
 /*botones iniciales*/
-.contenedor .contenedor1 .titulo_menu .main ul .subcontenedor1 .boton1{
+.contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 .boton1{
     padding: 12px;
     background: #f89a78;
     color:#000000 ;
@@ -63,7 +66,7 @@
     text-decoration: none;
 }
 /*botones iniciales con hover*/
-.contenedor .contenedor1 .titulo_menu .main ul .subcontenedor1 .boton1:hover{
+.contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 .boton1:hover{
     background-color: #ffabff;
     color:#0C01E5;
 }
@@ -72,13 +75,13 @@
     background-color: #ff9999;
     color: #020420;
 }*/
-.contenedor .contenedor1 .titulo_menu .main ul .subcontenedor1 .b1{
+.contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 .b1{
     overflow: hidden;
 }
-.contenedor .contenedor1 .titulo_menu .main ul .subcontenedor1 .b1:hover > .submenu1{
+.contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 .b1:hover > .submenu1{
     display: block;
 }
-.contenedor .contenedor1 .titulo_menu .main ul .subcontenedor1 .submenu1{
+.contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 .submenu1{
     padding: 0px;
     margin: 0px;
     display: none;
@@ -86,7 +89,7 @@
     list-style: none;
 }
 /*submenus de botones iniciales*/
-.contenedor .contenedor1 .titulo_menu .main ul .subcontenedor1 .submenu1 .boton1-1{
+.contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 .submenu1 .boton1-1{
     text-decoration: none;
     background: #f89a78;
     color: #000000;
@@ -95,11 +98,11 @@
     margin-right: 15px;
 }
 /*submenus de botones iniciales hover*/
-.contenedor .contenedor1 .titulo_menu .main ul .subcontenedor1 .submenu1 .boton1-1:hover{
+.contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 .submenu1 .boton1-1:hover{
     background-color:#ffabff;
     color:#0C01E5;
 }
-.contenedor .contenedor1 .titulo_menu .main ul .subcontenedor1 .submenu1 .boton1-2{
+.contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 .submenu1 .boton1-2{
     text-decoration: none;
     background: #f89a78;
     color: #000000;
@@ -107,11 +110,11 @@
     display: block;
     margin-right: 15px;
 }
-.contenedor .contenedor1 .titulo_menu .main ul .subcontenedor1 .submenu1 .boton1-2:hover{
+.contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 .submenu1 .boton1-2:hover{
     background-color: #ffabff;
     color:#0C01E5;
 }
-.contenedor .contenedor1 .titulo_menu .main ul .subcontenedor1 .submenu1 .boton1-3{
+.contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 .submenu1 .boton1-3{
     text-decoration: none;
     background: #f89a78;
     color: #000000;
@@ -119,11 +122,11 @@
     display: block;
     margin-right: 15px;
 }
-.contenedor .contenedor1 .titulo_menu .main ul .subcontenedor1 .submenu1 .boton1-3:hover{
+.contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 .submenu1 .boton1-3:hover{
     background-color: #ffabff;
     color: #0C01E5;
 }
-.contenedor .contenedor1 .titulo_menu .main ul .subcontenedor1 .submenu1 .boton1-4{
+.contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 .submenu1 .boton1-4{
     text-decoration: none;
     background: #f89a78;
     color: #000000;
@@ -131,11 +134,11 @@
     display: block;
     margin-right: 15px;
 }
-.contenedor .contenedor1 .titulo_menu .main ul .subcontenedor1 .submenu1 .boton1-4:hover{
+.contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 .submenu1 .boton1-4:hover{
     background-color: #ffabff;
     color:#0C01E5;
 }
-.contenedor .contenedor1 .titulo_menu .main ul .subcontenedor1 .submenu1 .boton1-5{
+.contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 .submenu1 .boton1-5{
     text-decoration: none;
     background: #f89a78;
     color: #000000;
@@ -143,7 +146,7 @@
     display: block;
     margin-right: 15px;
 }  
-.contenedor .contenedor1 .titulo_menu .main ul .subcontenedor1 .submenu1 .boton1-5:hover{
+.contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 .submenu1 .boton1-5:hover{
     background-color: #ffabff;
     color:#0C01E5;
 }

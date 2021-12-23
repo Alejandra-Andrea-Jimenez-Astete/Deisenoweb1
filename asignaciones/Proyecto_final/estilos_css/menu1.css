@@ -6,19 +6,25 @@
     font-size: 24px;
     font-family: "Balsamiq Sans";
     color:#000000;
-    background: #fff;
+    background: rgb(253, 149, 149);
     line-height: 50px;
+    display: flex;
+    flex-direction: row;
+}    
+.contenedor2 .imgcuerpo{
+    width: 40%;
 }
-.contenedor2{
-    width: 100%;/*cantidad de espacio de img*/
-    margin-left: 15px;
+.contenedor2 .imgcuerpo img{
+     width: 100%;
+     display: flex;
 }
-.contenedor2 img{
-     width: 41.66%;
-     float:right;
-     margin-left: 20px;
-     margin-bottom: 20px;
+.contenedor2 .parrafo{
+    width: 60%;
+    display: flex;
 }
-.contenedor2 p{
-    width: 58.34%;
+.contenedor2 .parrafo p{
+    width: 100%;
+    margin-left: 7px;
+    margin-right: 7px;
+    text-align: justify;
 }
