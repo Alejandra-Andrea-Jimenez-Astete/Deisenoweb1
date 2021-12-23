@@ -1,0 +1,20 @@
+.contenedor{
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.Formulario{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin: 20px 20px;
+    text-align:justify;
+    font-size: 24px;
+    font-family: monospace;
+    font-weight: bold;
+    line-height: 2em;
+}

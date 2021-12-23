@@ -10,15 +10,8 @@
     display: flex;
     flex-direction: row;
 }    
-.contenedor2 .imgcuerpo{
-    width: 40%;
-}
-.contenedor2 .imgcuerpo img{
-     width: 100%;
-     display: flex;
-}
 .contenedor2 .parrafo{
-    width: 60%;
+    width: 100%;
     display: flex;
 }
 .contenedor2 .parrafo p{

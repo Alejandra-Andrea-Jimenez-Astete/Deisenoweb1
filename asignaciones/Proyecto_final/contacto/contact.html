@@ -7,6 +7,7 @@
     <title>Cuidados para nuestras mascotas</title>
     <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="menu1.css">
+    <link rel="stylesheet" href="contacto.css">
 </head>
 <body>
     <div class="contenedor">
@@ -73,17 +74,48 @@
             <div class="contenedor2">
                 <div class="parrafo">
                     <p>
-                        Para ti que tu mascota es como un hijo mas,
-                        que es parte de tu familia y tiene todo tu amor.
-                        Admiramos el tiempo que le dedicas,tus cuidados, cariño,
-                        tu atencion que le brindas y muchos otras cosas más.
-                        Es increible el gran amor que sientes por él.
-                        Nunca cambies y sigue repartiendo amor a los 
-                        pequeños animaliitos que lo necesitan.
+                        <div class=Formulario>
+                            <form action="gracias.html" method="get">
+                                <label for="name">Nombre completo: </label>
+                                <input type="text" name="name" id="name"  pattern="[a-zA-Z ]{5,254}"
+                                title="El tamaño es menor a cinco, ingrese su nombre completo">
+                                <br>
+                                <label for="email">Correo electronico: </label>
+                                <input type="email" name="Correo electronico" id="email" placeholder="juanperez@gmail.com">
+                                <br>
+                                <label for="telf">Numero de telefono: </label>
+                                <input type="tel" name="Nuemero de telefono" id="telf" required>
+                                <br>
+                                <label for="date">Fecha de nacimiento de la mascota: </label>
+                                <input type="date" name="Fecha actual" id="date">
+                                <br>
+                                <label for="usuario">Genero:  </label>
+                                <br>
+                                <input type="radio" name="tipo_usuario" value="hombre" id="usuario">
+                                <label for="usuario">Varon</label>
+                                <br>
+                                <input type="radio" name="tipo_usuario" value="Aburrido" id="user">
+                                <label for="user">Mujer</label>
+                                <br>
+                                <label for="mascota">Que mascota tiene: </label>
+                                <select name="Mascotas" id="mascota">
+                                    <option value="0" disabled>Seleccionar </option>
+                                    <option value="1">Gatos</option>
+                                    <option value="2">Perros</option>
+                                    <option value="3">Serpientes</option>
+                                    <option value="4">Aracnidos</option>
+                                    <option value="5">Insectos</option>
+                                    <option value="6">Peces</option>
+                                    <option value="7">Otros</option>
+                                </select>
+                                <br>
+                                <label for="comentario">Comentarios: </label>
+                                <input type="textarea" name="Informacion adicional" id="comentario">
+                                <br>
+                                <input type="submit" name="enviado" value="Enviar">
+                            </form>
+                        </div>
                     </p>
-                </div>
-                <div class="imgcuerpo" >
-                    <img src="imagenes_para_usar/imagen.jpeg" alt="mascotas">
                 </div>
             </div>
         </main>
