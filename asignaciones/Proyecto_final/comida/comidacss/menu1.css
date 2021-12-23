@@ -5,7 +5,7 @@
     font-size: 24px;
     font-family: "Balsamiq Sans";
     color:#000000;
-    background: rgb(255, 186, 169);
+    background: #6c76ff;
     line-height: 50px;
     display: flex;
     flex-direction: row;
@@ -31,7 +31,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: rgba(255, 166, 134, 0.904);
+    background: rgba(70, 87, 238, 0.904);
     width: 100%;
 }
 .contenedor3 #img2{
@@ -43,7 +43,7 @@
     padding: 0;
     box-sizing: border-box;
     color:#000000;
-    background: rgb(255, 169, 130);
+    background: rgb(35, 32, 255);
     display: flex;
     flex-direction: row;
     width: 100%;
