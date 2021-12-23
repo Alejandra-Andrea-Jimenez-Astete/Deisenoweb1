@@ -1,0 +1,55 @@
+.contenedor2{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-family: "Balsamiq Sans";
+    color:#000000;
+    background: rgb(255, 186, 169);
+    line-height: 50px;
+    display: flex;
+    flex-direction: row;
+}    
+.contenedor2 .imgcuerpo{
+    width: 40%;
+}
+.contenedor2 .imgcuerpo img{
+     width: 100%;
+     display: flex;
+}
+.contenedor2 .parrafo{
+    width: 60%;
+    display: flex;
+}
+.contenedor2 .parrafo p{
+    width: 100%;
+    margin-left: 7px;
+    margin-right: 7px;
+    text-align: justify;
+}
+.contenedor3{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgba(255, 166, 134, 0.904);
+    width: 100%;
+}
+.contenedor3 #img2{
+    width: 100%;
+    display: flex;
+}
+.contenedor4 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:#000000;
+    background: rgb(255, 169, 130);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.contenedor4 h3 {
+    font-size: 24px;
+    font-family: "Balsamiq Sans";
+    margin-left: 5px;
+}
