@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 body{
-    background: rgb(255, 224, 184);
+    background: rgb(249, 202, 255);
 }
 .contenedor{
     width: 100%;
@@ -14,7 +14,7 @@ body{
 .contenedor1{
     padding: 50px;
     box-sizing: border-box;
-    background: #FF8C2D;
+    background: #d449ff;
     overflow: hidden;
     display: flex;
     flex-direction: row;
@@ -59,7 +59,7 @@ body{
 /*botones iniciales*/
 .contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 .boton1{
     padding: 12px;
-    background: #f89a78;
+    background: #d70fff;
     color:#000000 ;
     margin-right: 10px;
     text-decoration: none;
@@ -67,7 +67,7 @@ body{
 /*botones iniciales con hover*/
 .contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 .boton1:hover{
     background-color: #ffabff;
-    color:#0C01E5;
+    color:#4e0097;
 }
 /*no se aplica encima el hover si colocamos esto*//*
 .boton1:visited{
@@ -90,62 +90,62 @@ body{
 /*submenus de botones iniciales*/
 .contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 .submenu1 .boton1-1{
     text-decoration: none;
-    background: #f89a78;
-    color: #000000;
+    background: #d70fff;
+    color:#000000 ;
     padding: 10px 6.5px;
     display: block;
     margin-right: 15px;
 }
 /*submenus de botones iniciales hover*/
 .contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 .submenu1 .boton1-1:hover{
-    background-color:#ffabff;
-    color:#0C01E5;
+    background-color: #ffabff;
+    color:#4e0097;
 }
 .contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 .submenu1 .boton1-2{
     text-decoration: none;
-    background: #f89a78;
-    color: #000000;
+    background: #d70fff;
+    color:#000000 ;
     padding: 10px 5px;
     display: block;
     margin-right: 15px;
 }
 .contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 .submenu1 .boton1-2:hover{
     background-color: #ffabff;
-    color:#0C01E5;
+    color:#4e0097;
 }
 .contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 .submenu1 .boton1-3{
     text-decoration: none;
-    background: #f89a78;
-    color: #000000;
+    background: #d70fff;
+    color:#000000 ;
     padding: 10px 32px;
     display: block;
     margin-right: 15px;
 }
 .contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 .submenu1 .boton1-3:hover{
     background-color: #ffabff;
-    color: #0C01E5;
+    color:#4e0097;
 }
 .contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 .submenu1 .boton1-4{
     text-decoration: none;
-    background: #f89a78;
-    color: #000000;
+    background: #d70fff;
+    color:#000000 ;
     padding: 10px 12px;
     display: block;
     margin-right: 15px;
 }
 .contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 .submenu1 .boton1-4:hover{
     background-color: #ffabff;
-    color:#0C01E5;
+    color:#4e0097;
 }
 .contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 .submenu1 .boton1-5{
     text-decoration: none;
-    background: #f89a78;
-    color: #000000;
+    background: #d70fff;
+    color:#000000 ;
     padding: 10px 10px;
     display: block;
     margin-right: 15px;
 }  
 .contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 .submenu1 .boton1-5:hover{
     background-color: #ffabff;
-    color:#0C01E5;
+    color:#4e0097;
 }
