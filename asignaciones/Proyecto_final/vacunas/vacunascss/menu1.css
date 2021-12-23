@@ -11,30 +11,26 @@
     flex-direction: row;
 }    
 .contenedor2 .imgcuerpo{
-    width: 40%;
+    width: 30%;
 }
 .contenedor2 .imgcuerpo img{
      width: 100%;
      display: flex;
 }
 .contenedor2 .parrafo{
-    width: 60%;
-    display: flex;
+    width: 70%;
 }
 .contenedor2 .parrafo p{
     width: 100%;
     margin-left: 7px;
     margin-right: 7px;
-    text-align: justify;
+    display: flex;
 }
 .contenedor3{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background: rgba(152, 79, 221, 0.904);
-    width: 100%;
-}
-.contenedor3 #img2{
     width: 100%;
     display: flex;
 }
