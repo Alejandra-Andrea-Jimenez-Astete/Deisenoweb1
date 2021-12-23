@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 body{
-    background: rgb(191, 214, 248);
+    background: #477AFB;
 }
 .contenedor{
     width: 100%;
@@ -14,7 +14,7 @@ body{
 .contenedor1{
     padding: 50px;
     box-sizing: border-box;
-    background: #477AFB;
+    background: #27FDDE;
     overflow: hidden;
     display: flex;
     flex-direction: row;
