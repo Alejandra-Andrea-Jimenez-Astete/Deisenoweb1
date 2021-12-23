@@ -11,7 +11,8 @@
     flex-direction: column;
 }    
 .contenedor2 .parrafo{
-    width: 70%;
+    width: 100%;
+    display: flex;
 }
 .contenedor2 .parrafo blockquote{
     width: 100%;

@@ -69,11 +69,10 @@ body{
     background-color: #ffabff;
     color:#0C01E5;
 }
-/*no se aplica encima el hover si colocamos esto*//*
 .boton1:visited{
     background-color: #ff9999;
     color: #020420;
-}*/
+}
 .contenedor .contenedor1 .titulo_menu .main .menu .subcontenedor1 .b1{
     overflow: hidden;
 }
