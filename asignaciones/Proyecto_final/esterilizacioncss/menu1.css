@@ -8,24 +8,22 @@
     background: rgb(255, 135, 249);
     line-height: 50px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }    
-.contenedor2 .imgcuerpo{
-    width: 40%;
-}
-.contenedor2 .imgcuerpo img{
-     width: 100%;
-     display: flex;
-}
 .contenedor2 .parrafo{
-    width: 60%;
+    width: 100%;
     display: flex;
+    flex-direction: column;
 }
 .contenedor2 .parrafo p{
     width: 100%;
     margin-left: 7px;
     margin-right: 7px;
-    text-align: justify;
+}
+.contenedor2 .parrafo blockquote{
+    width: 100%;
+    display: flex;
+    line-height: normal;
 }
 .contenedor3{
     margin: 0;
