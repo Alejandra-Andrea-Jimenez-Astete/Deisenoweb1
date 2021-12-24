@@ -20,15 +20,10 @@
 }
 .contenedor2 .parrafo blockquote{
     width: 96%;
-    display: flex;
 }
 .contenedor2 .parrafo .imagen{
-    width: 100%;
-    max-width: 1200px;
-}
-.contenedor2 .parrafo .imagen img{
-    width: 35%;
-    margin: 30px;
+    width: 40%;
+    align-self: center;
 }
 .contenedor3{
     margin: 0;
