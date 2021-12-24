@@ -1,6 +1,8 @@
 .contenedor2{
     margin: 0;
     padding: 0;
+    width: 100%;
+    max-width: 1200px;
     box-sizing: border-box;
     font-size: 24px;
     font-family: "Balsamiq Sans";
@@ -12,11 +14,21 @@
 }    
 .contenedor2 .parrafo{
     width: 100%;
+    max-width: 1200px;
     display: flex;
+    flex-direction: column;
 }
 .contenedor2 .parrafo blockquote{
-    width: 100%;
+    width: 96%;
     display: flex;
+}
+.contenedor2 .parrafo .imagen{
+    width: 100%;
+    max-width: 1200px;
+}
+.contenedor2 .parrafo .imagen img{
+    width: 35%;
+    margin: 30px;
 }
 .contenedor3{
     margin: 0;
